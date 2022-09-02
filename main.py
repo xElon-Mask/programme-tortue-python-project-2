@@ -26,8 +26,18 @@ t.backward(100)
         t.right(90)
     t.forward(30)"""
 
-escalier(30, 5)
+# escalier(30, 5)
 
+# exo 2 : faire un carré avec comme paramètre la taille du carré
+
+def carre(taille):
+    for i in range(0, 4):
+        t.forward(taille)
+        t.left(90)
+
+
+
+carre(100)
 
 turtle.done()
 

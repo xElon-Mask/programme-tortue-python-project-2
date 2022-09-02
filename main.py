@@ -37,7 +37,17 @@ def carre(taille):
 
 
 
-carre(100)
+#carre(100)
+
+# exo 3 : définir une fonction qui permet d'afficher plusieurs carrés
+def carres(taille_depart, nb):
+    # taille = (i + 1) * taille_depart
+    for i in range(0, nb):
+        taille = (i + 1) * taille_depart
+        carre(taille)
+        
+
+carres(50, 5)
 
 turtle.done()
 
